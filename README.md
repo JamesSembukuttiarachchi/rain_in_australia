@@ -1,10 +1,10 @@
-# 🌧️ Rain in Australia — ML Prediction Project
+# Rain in Australia — ML Prediction Project
 
 Supervised machine learning project to predict whether it will rain tomorrow in Australia using historical weather data. Four distinct algorithms are explored and compared.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
@@ -18,7 +18,7 @@ Supervised machine learning project to predict whether it will rain tomorrow in 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Kaggle – Rain in Australia](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
 - **Original size:** ~145,000 daily weather observations across multiple Australian stations
@@ -33,7 +33,7 @@ Supervised machine learning project to predict whether it will rain tomorrow in 
 
 ---
 
-## ⚙️ ML Pipeline (Common Steps)
+## ML Pipeline (Common Steps)
 
 All notebooks follow a similar workflow:
 
@@ -47,7 +47,7 @@ All notebooks follow a similar workflow:
 
 ---
 
-## 🤖 Models & Results
+## Models & Results
 
 ### 1. Logistic Regression (`01_logistic_regression_weatherAUS.ipynb`)
 
@@ -104,7 +104,7 @@ Two variants compared — baseline and hyperparameter-tuned:
 
 ---
 
-## 📈 Model Comparison Summary
+## Model Comparison Summary
 
 | Model | Accuracy | ROC-AUC |
 |-------|----------|---------|
@@ -132,7 +132,7 @@ matplotlib
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Deep learning models were intentionally excluded (assignment constraint)
 - Class balancing was performed as a preprocessing step using the `Dataset_balancing.ipynb` notebook
